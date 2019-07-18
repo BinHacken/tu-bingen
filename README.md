@@ -1,4 +1,4 @@
 # TU-Bingen
-Technicher Untergrund
+Technischer Untergrund
 
 [tu-bingen.de](https://tu-bingen.de)
