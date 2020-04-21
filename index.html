@@ -12,52 +12,126 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
   <style>
-    html,
-    body,
     * {
-      padding: 0;
       margin: 0;
+      padding: 0;
     }
-    
+
+    body {
+      background-color: #3c3c3c;
+      color: #d3d3d3;
+      font-family: san francisco, helvetica neue, helvetica, arial;
+    }
+
+    .container {
+      margin: 0 auto;
+      max-width: 960px;
+      padding: 1rem;
+    }
+
     article {
-      margin-top: 2rem;
-    }
-    
-    p {
-      text-align: center;
-      font-family: sans-serif;
+      margin: 2rem 0;
     }
 
-    img {
-      width: 70vw;
-      max-width: 800px;
-    }
-    
-    img:nth-of-type(2) {
-      margin-top: 5rem;
-    }
-
-    footer {
-      margin-top: 5rem;
+    h2 {
+      border-bottom: 1px solid #20c20e;
       margin-bottom: 1rem;
     }
+
+    p,
+    li {
+      font-size: 1.38rem;
+      line-height: 1.4em;
+    }
+
+    a {
+      color: #00a4ca;
+      text-decoration: none;
+    }
+
+    b {}
   </style>
 </head>
 
 <body>
-  <article>
-    <p>
-      <img src="images/logo_dark.svg" alt="Schriftzug: TU Bingen, Unterzeile: Technischer Untergrund">
-      <br>
-      <img src="images/verboten.jpg" alt="Schild: Die studentische Nutzung des Inernets ist nur nach Rücksprache gestattet">
-    </p>
-  </article>
+  <div class="container">
+    <h1>Work-In-Progress</h1>
+    <article>
+      <p>
+        <b>
+          Aktuell gibt es bei der schlagartigen Digitalisierung des Studienbetriebs viele Probleme, sowohl für Studierende als auch Lehrkräfte.<br>
+          Da sich nach unserem Wissensstand die Lage in der näheren Zukunft nicht ändern wird möchten wir hier auf ein paar Punkte eingehen, die uns als Studierende wichtig sind
+        </b>
+        <br>
+        <br>
+      </p>
+    </article>
 
-  <footer>
-    <p>
-      Diese Parodie wird Ihnen präsentiert von <a href="https://binhacken.de" target="_blank">/bin/hacken</a>
-    </p>
-  </footer>
+    <article>
+      <h2>Lernangebot</h2>
+      <p>
+        Aufgrund der Lage ist die psychische Belastung bei allen aktuell erhöht.
+        Dazu trägt unter anderem auch der späte Semesterstart bei, durch den 2 Vorlesungswochen verloren gegangen sind.
+        Unangepasste Lehrkonzepte, welche mit der aktuellen Lage nicht kompatibel sind, erschweren die Lage zusätzlich.
+        <br><br>
+        Es muss ein breites digitales Lernangebot geschaffen werden.
+        <br>
+        Ein normaler Vorlesungsbetrieb lässt sich z.B. nicht allein durch das Hochladen der Folien ersetzen.
+      </p>
+    </article>
+
+    <article>
+      <h2>Infrastruktur</h2>
+      <p>
+        Wir spüren aktuell die Versäumnisse im digitalen Bildungsbereich der letzten Jahre.
+        Vieles muss improvisiert werden. Plattformen wie OLAT sind oft nicht verfügbar oder überlastet.
+        <br><br>
+        Unausgestalteten Online-Inhalte werden durch große Videokonferenzen kompensiert.<br>
+        Diese belasten allerdings die Server unverhältnismäßig stark und nicht alle Studierende haben Zugang zu stabilem Internet oder Videokonferenz-Equipment (Webcam, Headset).
+      </p>
+    </article>
+
+    <article>
+      <h2>Software</h2>
+      <p>
+        Im Rahmen des Virtuellen Campus Rheinland-Pfalz (VCRP) werden bereits offene Tools angeboten.
+        Doch leider sind diese teilweise überlastet, da derzeit viele Video-Konferenzen mit großen Teilnehmerzahlen stattfinden.
+        <br>
+        Bessere Lernkonzepte könnten das verhindern indem z.B. Vorlesungen als Video hochgeladen werden.
+        <br><br>
+        Aktuell wird jedoch vermehrt auf auf kommerzielle Tools wie Microsoft-Teams oder Zoom gesetzt.
+        Diese sind weit verbreitet, haben aber datenschutzrechtliche und/oder sicherheitstechnische Mängel.
+        Desweiteren verursachen die Lizenzen zusätzliche Kosten, die durch Nutzung der Open-Source-Tools eingespart werden können.
+        <br><br>
+        Besonders die populäre Video-Konferenz-Platform Zoom hat in der Vergangenheit wiederholt bewiesen, dass sie im Bereich Datenschutz und Sicherheit nicht vertrauenswürdig ist
+        <a href="#quellenlinks">[1]</a>.
+      </p>
+    </article>
+
+    <article>
+      <h2>Was kann ich tun?</h2>
+      <ul>
+        <li>Informiert euch gegenseitig!</li>
+        <li>Findet ihr das Lernangebot unzureichend, werdet aktiv und schlagt Ideen vor.</li>
+        <li>Setzt euch dafür ein, dass die Verwendung von Drittanbieter-Software (MS Teams, Zoom, usw.) eine Ausnahme bleibt und vorher außreichend geprüft wird.</li>
+        <li>Findet euch nicht mit der Lage ab. Wir müssen gemeinsam ein besseres digitales Lernangebot schaffen, auch für Zeiten nach der Pandemie.</li>
+        <li>Eine Liste mit Tools <a href="#quellenlinks">[2]</a>, sowie Empfehlungen und Hilfe bei der Umsetzung digitaler Lehre bietet das VCRP <a href="#quellenlinks">[3]</a>.</li>
+      </ul>
+      <p>
+        <br>
+        <b>Wenn nicht für dich, dann für alle, die aktuell nicht die Möglichkeit haben gehört zu werden!</b>
+      </p>
+    </article>
+
+    <article id="quellenlinks">
+      <h2>Quellen & Links</h2>
+      <p>
+        [1] <a href="https://de.wikipedia.org/wiki/Zoom_Video_Communications#Kritik" target="_blank">Zoom Video Communications</a><br>
+        [2] <a href="https://www.vcrp.de/digitale-lehre/tools" target="_blank">vcrp.de/digitale-lehre/tools</a><br>
+        [3] <a href="https://www.vcrp.de/digitale-lehre/faq" target="_blank">vcrp.de/digitale-lehre/faq</a><br>
+      </p>
+    </article>
+  </div>
 </body>
 
 </html>
